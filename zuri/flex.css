@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#container{
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.colum1 {
+width: 200px;
+float: left;
+margin: 0px;
+padding: 50px;
+border-radius: 3px;
+}
+
+.colum2{
+    width: 200px;
+float: left;
+margin: 0px;
+padding: 50px;
+}
+
+
+
+
+.colum3{
+    width: 200px;
+    float: left;
+    margin: 0px;
+    padding: 50px;
+    border-radius: 5px, 3px, 3px;
+}
+
+.colum1{
+    background-color: rgb(237, 168, 7);
+}
+
+.colum2{
+    background-color: darkcyan;
+}
+
+.colum3{
+    background-color: rgb(0, 37, 37);
+}
+
+p{
+    align-content: center;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    margin-top: 20px;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html{
+    background-color: transparent;
+}
+
+.learn{
+    background-color: white;
+}
+
+#learn{
+    background-color: gray;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#learn1{
+    background-color: gray;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+#learn2{
+    background-color: gray;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
+}
