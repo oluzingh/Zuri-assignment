@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths/title>
+</head>
+<style type="text/css">
+    #p
+    {
+        font-size: 220px;
+        margin-left: 550px;
+    }
+
+</style>
+<script type="text/javascript">
+    function add()
+    {
+        var a=document.getElementById('txt1').value;
+        var b=document.getElementById('txt2').value;
+        var c=+a + +b;
+        document.getElementById("p").innerHTML-c;
+    } 
+
+</script>
+<body>
+<input type="text" placeholder="Enter number" id="txt1" name>
+<br>
+<br>
+<input type="text" placeholder="Enter number" id="txt1" name>
+<br>
+<br>
+<input type="button" value= "ADD" oneclick="add()" name="">
+<input type="button" value= "Sub" oneclick="sub()" name="">
+<input type="button" value= "MUL" oneclick="mul()" name="">
+<input type="button" value= "DIV" oneclick="div()" name="">
+<p id="p"></p>
+</body>
+</html>
